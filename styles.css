@@ -407,6 +407,7 @@ body{
         height: 100vh;
     }
     .text_title{
+        background-color: red;
         margin: 0;
         padding: 0;
     }
