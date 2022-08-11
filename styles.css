@@ -411,4 +411,7 @@ body{
         margin: 0;
         padding: 0;
     }
+    .fondo {
+        background-color: blue;
+    }
 }
