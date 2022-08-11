@@ -360,12 +360,6 @@ body{
             grid-template-columns: 70%;
             grid-template-rows: repeat(5, 20%);
         }
-        .text_paragraph{
-            margin-bottom: 20px;
-        }
-        .text_extra{
-            margin-bottom: 10px;
-        }
 
         .svg_acerca_de_mi{
                 flex-direction: column;
