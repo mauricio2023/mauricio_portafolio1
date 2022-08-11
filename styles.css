@@ -383,7 +383,27 @@ body{
             margin-top: 0;
             padding: 0;
         }
-            .svg_experiencia{
+            .svg_experiencia_linea{
                 display: none;
             }
+}
+@media only screen and (max-width : 400px) {
+    :root{
+        --title : 25px;
+        --subtitulo : 20px;
+        --semibold : 600;
+        --parrafo : 14px;
+        --content : 25px;
+    }
+    .div_descripcion{
+        padding: 30px;
+    }
+    .fondo img{
+        width: 200px;
+        padding: 10px;
+        margin: auto;
+    }
+    .header{
+        height: auto;
+    }
 }
