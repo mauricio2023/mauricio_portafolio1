@@ -345,23 +345,22 @@ body{
             background: var(--contraste);
             border-radius: 40%;
         }
-  /*      
+        
         .contenedor_header{
                max-width: 1900px;
                height: 100%;
-        }*/
+        }
         .text_img_container .item_t:nth-child(5){
             /*margin: 50px 0 50px 0;*/
             grid-column: 1 / 2;
             grid-row: 2 / 3;
         }
-      /*  .text_img_container{
+        .text_img_container{
             display: grid;
             grid-template-columns: 70%;
             grid-template-rows: repeat(5, 20%);
         }
-*/
-        .svg_acerca_de_mi{
+    .svg_acerca_de_mi{
                 flex-direction: column;
                 align-items: center;
         }
