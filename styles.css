@@ -1,0 +1,387 @@
+:root{
+    --amarillo : #f1a600;
+    --fondo : #1f1d2c;
+    --contraste : #242635;
+    --gris : #e5e5e5;
+    --blanco : #ffffff;
+    --title : 50px;
+    --subtitulo : 35px;
+    --semibold : 600;
+    --parrafo : 25px;
+    --content : 50px;
+}
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: var(--blanco);
+    margin: 0;
+}
+
+body{
+    
+    font-size: 18px;
+    padding: 0;
+    background: var(--fondo);
+}
+
+.icon_menu{
+    visibility: hidden;
+    position: absolute;
+}
+
+.header_content{
+    padding: 3rem;
+    margin: auto;
+    max-width: 1300px;
+}
+
+.nav_ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.span a{
+    color: var(--amarillo);
+}
+
+.nav_li{
+    padding: 0px 20px;
+}
+
+.icon_menu {
+    display: flex;
+    justify-content: flex-end;
+    z-index: 0;
+}
+
+
+.text_container{
+    display: flex;
+    flex-direction: column;
+    padding: 25px 15px 15px 15px;
+}
+
+.text_container div{
+    padding: 20px;
+}
+
+.text_img_container{
+    width: auto;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+
+}
+
+.text_img_container .item_t:nth-child(5){
+    grid-column: 2 / 3;
+    grid-row: 1 / 4;
+}
+
+.fondo{
+    padding: 0;
+    width: auto;
+}
+
+.fondo img{
+    width: 400px;
+    padding: 50px;
+    background: var(--contraste);
+    border-radius: 40%;
+}
+
+
+.text_title{
+    font-size: var(--title);
+    font-weight: 600;
+}
+
+.text_paragraph{
+    font-size: var(--subtitulo);
+    font-weight: 600;
+    
+}
+
+.text_extra span{
+    color: var(--amarillo);
+}
+
+.text_extra {
+    font-size: var(--parrafo);
+
+}
+
+.acerca_de_mi_container{
+    background-color: var(--contraste);
+    text-align: center;
+    padding: var(--content);
+}
+
+.titles_h2{
+    font-size: var(--subtitulo);
+    font-weight: var(--semibold);
+    text-align: center;
+    padding: 20px;
+
+}
+
+.text_acerca_de_mi p{
+    color: var(--gris);
+    padding: 10px;
+    margin: auto;
+    max-width: 900px;
+}
+
+.svg_acerca_de_mi{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.svg_content h3{
+    font-size: var(--parrafo);
+    padding: 20px;
+}
+
+.experiencias_container{
+    margin: auto;
+    max-width: 900px;
+    padding: var(--content);
+}
+
+.content_experencia{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.svg_experiencia{
+   display: flex;
+   flex-direction:column;
+   
+}
+
+.svg_experiencia a{
+    padding: 30px 0 30px 0;
+}
+
+.tecnologias{
+    padding: 50px 0 50px 0;
+}
+
+.anos{
+    padding: 70px 0 70px 0;
+}
+
+.mis_abilidades_container{
+    height: 80vh;
+    margin: auto;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 17vh;
+}
+
+
+
+.container_abilidades{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    padding: 30px;
+
+}
+
+.porcentaje{
+        display: grid;
+        grid-template-rows: repeat(4, 150px) ;
+}
+
+.descripcion{
+    display: grid;
+    grid-template-rows: repeat(4, 150px) ;
+}
+
+.div_porcentaje{
+    font-size: 90px;
+    color: var(--amarillo);
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.div_descripcion{
+    font-size: var(--parrafo);
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+
+.title_h2 {
+    padding: 40px 0px 40px 30px;
+    font-size: var(--subtitulo);
+}
+
+.portafolio_content{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 1100px;
+}
+
+.portafolio_content h3{
+    margin-top: 30px;
+    font-size: var(--parrafo);
+}
+
+.mi_portafolio_container{
+    margin-top: 250px;
+    padding: 50px;
+
+}
+
+.img_portafolio2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 100px;
+}
+
+.img_portafolio{
+    margin-top: 50px;
+}
+
+.contacto{
+    padding: 30px 0 0 0;
+    background: var(--contraste);
+}
+
+.contacto_info{
+    margin: auto;
+    max-width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding: 100px 0 100px 0;
+}
+
+.contacto_info h3{
+
+    padding:20px 0 20px 0;
+
+}
+
+.contacto_info p{
+    color: var(--gris);
+}
+
+.footer{
+    margin-top: 100px;
+}
+
+.autor{
+    text-align: center;
+    padding: 100px;
+    color: var(--gris);
+}
+
+
+
+@media only screen and (max-width : 1100px) {
+        
+        :root{
+            --title : 40px;
+            --subtitulo : 30px;
+            --semibold : 600;
+            --parrafo : 18px;
+            --content : 45px;
+        }
+        .nav_li{
+            padding: 0px 10px;
+        }
+        .div_porcentaje{
+            font-size: 50px;
+        }
+        
+
+    }
+
+    @media only screen and (max-width : 880px) {
+        :root{
+            --title : 35px;
+            --subtitulo : 25px;
+            --semibold : 600;
+            --parrafo : 16px;
+            --content : 35px;
+        }
+        .nav_ul{
+            display: none;
+        }
+        .icon_menu{
+            visibility: visible;
+            position: relative;
+        }
+        .text_img_container{
+            margin-top: 50px;
+            grid-template-columns: 100%;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+
+        }
+
+        .fondo img{
+            width: 350px;
+            padding: 50px;
+            background: var(--contraste);
+            border-radius: 40%;
+        }
+        
+        .text_img_container .item_t:nth-child(5){
+            margin: 50px 0 50px 0;
+            grid-column: 1 / 2;
+            grid-row: 2 / 3;
+        }
+        .text_paragraph{
+            margin-bottom: 20px;
+        }
+        .text_extra{
+            margin-bottom: 10px;
+        }
+
+        .svg_acerca_de_mi{
+                flex-direction: column;
+                align-items: center;
+        }
+        .svg_content{
+            padding: 20px;
+        }
+        .img_portafolio2{
+            margin: 0;
+            padding: 40px;
+        }
+        
+        .img_portafolio2 img{
+            width: 400px;
+            height: 350px;
+        }
+
+        .img_portafolio img{
+            width: 400px;
+            height: 350px;
+        }
+        .mi_portafolio_container{
+            margin-top: 0;
+            padding: 0;
+        }
+
+}
