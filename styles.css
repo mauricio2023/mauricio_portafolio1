@@ -404,7 +404,7 @@ body{
         margin: auto;
     }
     .header{
-        height: auto;
+        height: 100vh;
     }
     .text_title{
         margin: 0;
